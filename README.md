@@ -14,6 +14,10 @@ an-Router was implemented with inspiration to ui-router. It thus has a similar y
 
 # how to use
 The basic usage example in exaples/minimal shows the minimum setup to use an-Router.
+
+demo: https://and7s.github.io/anRouter/examples/minimal
+
+
 - add anRouting as dependency to your module
 - Configure a state (name, url and a template)
 - set the default (the otherwise) to this state
@@ -31,6 +35,10 @@ state definition looks as follows
     parentState: 'statenameOfParent'      // if defiend, the scope of this state is inherited from the parents scope
   }
 )
+
+other examples:
+
+https://and7s.github.io/anRouter/examples/basic-routing
 
 
 Other than ui-router, the query params are not part of the url definition of the state. This means any param can be passed to the url and will always resolve in the same state.
